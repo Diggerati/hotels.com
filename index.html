@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotels.com</title>
     <link rel="stylesheet" href="styles.css">    
-    <link rel="stylesheet" href="mobile.css">
+    <!-- <link rel="stylesheet" href="mobile.css"> -->
 
     <!-- adding external fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Quicksand:wght@400;500&family=Roboto:wght@500&display=swap" rel="stylesheet">
@@ -13,18 +13,20 @@
 </head>
 <body home>
     <div class="logIn">
-<div class="logo">
-    <div class="h3">
-    <span>Hotels.com</span>
 
-    </div>
-</div>
+        <div class="logo">
+            <div class="h3">
+             <span>Hotels.com</span>
+            </div>
+        </div>
+
 <div class="logInContainer">
-    
-    <input type="email" name="userMail" placeholder="yourname@example.com">
-    <input type="password" name="userPassword" placeholder="Password">
+    <input type="email" name="userMail" placeholder="yourname@example.com" class="inputBox">
+    <input type="password" name="userPassword" placeholder="Password" class="inputBox">
   
-    <input type="submit" value="Log In">
+    <a href="home.html">
+        <input type="submit" value="Log In" class="logInBtn">
+    </a>
     <p>Don't have Account? <a href="signup.html">Sign Up</a></p>
 </div>
     </div>
