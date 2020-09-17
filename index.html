@@ -4,29 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotels.com</title>
-    <link rel="stylesheet" href="styles.css">    
-
     
+   
 </head>
-<body home>
-    <div class="logIn">
+<body>
+    <div class="logIncontainer">
+        <div class="logIn">
 
-        <div class="logo">
-            <div class="h3">
-             <span>Hotels.com</span>
+            <div class="logo">
+                <div class="h3">
+                 <h3>Hotels.com</h3>
+                </div>
+            </div>
+    
+            <div class="logInContainer">
+                <div class="logins">
+                    <form action="#">
+                        <input type="email" name="userMail" placeholder="yourname@example.com" class="inputBox">
+                    <br>
+                    <br>
+                    <input type="password" name="userPassword" placeholder="Password" class="inputBox">
+                <br><br>
+                    <a href="home.html">
+                        <input type="submit" value="Login" class="logInBtn">
+                    </a>
+                    </form>
+                    
+                    <p>Don't have Account? <a href="signup.html">Sign Up</a></p>
+                </div>
+               
             </div>
         </div>
-
-<div class="logInContainer">
-    <input type="email" name="userMail" placeholder="yourname@example.com" class="inputBox">
-    <input type="password" name="userPassword" placeholder="Password" class="inputBox">
-  
-    <a href="home.html">
-        <input type="submit" value="Log In" class="logInBtn">
-    </a>
-    <p>Don't have Account? <a href="signup.html">Sign Up</a></p>
-</div>
     </div>
     
+
+    
+    <script src="./js/main.js"></script>
 </body>
 </html>

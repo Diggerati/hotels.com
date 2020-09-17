@@ -1,0 +1,420 @@
+
+    *{
+    margin: 0;
+}
+
+
+
+
+ul{
+    list-style-type: none;
+}
+
+/*scroll bar codes*/
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+    height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.logIn{
+    height: 300px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: red;
+}
+.logIncontainer{
+    height: auto;
+    width: 100%;
+    margin-top: 10%;
+}
+
+.logo{
+    height: 100%;
+    width: 100%;
+    float: left;
+}
+.logo > .h3{
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 19%;
+    font-size: 5vw;
+}
+.logInContainer{
+    height: 100%;
+    width: 48%;
+    float: left;
+
+    background-color: blue;
+}
+.logins{
+    height: auto;
+    width: auto;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+nav {
+    height: 60px;
+    width: 100%;
+    z-index: 4;
+    background-color: transparent;
+    top: 0;
+    overflow: hidden;
+    position: fixed;
+   
+}
+
+.hotel_logo {
+    height: 100%;
+    font-size: 2vw;
+    padding-top: 16px;
+    text-shadow: 0px 0px 6px white;
+    margin-left: 30px;
+    font-weight: bold;
+    width: auto;
+    float: left;
+}
+
+
+
+.options_container {
+    height: 100%;
+    overflow: hidden;
+    float: left;
+    width: 85%;
+}
+
+.options {
+    height: 37px;
+    padding-top: 20px;
+    padding-right: 10px;
+        text-shadow: 0px 0px 6px white;
+
+    padding-left: 10px;
+    width: auto;
+    margin-right: 8%;
+    float: right;
+    border-style: solid;
+    border-right: none;
+    border-top: none;
+    border-color: transparent;
+    border-left: none;
+    transition: 0.5s;
+}
+
+.options:hover {
+    transition: 0.5s;
+    border-color: black;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+.contatcContainer {
+    height: 300px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+
+
+.contactUs > textarea{
+    height: 50%;
+    width: 80%;
+    background-color: whitesmoke;
+    text-indent: 30px
+    
+}
+
+footer {
+    height: auto;
+    width: 100%;
+    padding-top: 30px;
+    margin-top: 90px;
+    background-color: whitesmoke;
+    padding-bottom: 60px;
+    float: left;
+}
+
+
+.segment {
+    height: 100%;
+    text-align: center;
+    width: 32%;
+    float: left;
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.footerContents {
+    height: 100%;
+    width: 70%;
+    float: right;
+    text-align: left;
+}
+.footerContents > h2{
+    margin-bottom: 30px;
+}
+
+
+.inputs {
+    height: 40px;
+    width: 80%;
+    margin-top: 30px;
+    font-family: 'Kumbh Sans', sans-serif;
+    margin-left: 10%;
+    background-color: rgba(255, 255, 255, 0.69);
+    border-style: solid;
+    border-color: grey;
+    border-width: 2px;
+    text-indent: 30px;
+    border-radius: 5px;
+    
+}
+
+.textArea {
+    height: 100px;
+    margin-top: 30px;
+    font-family: 'Kumbh Sans', sans-serif;
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 15px;
+    background-color: rgba(255, 255, 255, 0.69);
+    border-style: solid;
+    border-color: grey;
+    border-width: 2px;
+    text-indent: 30px;
+    border-radius: 5px;
+}
+
+
+#sendBtn {
+    height: 40px;
+    font-family: 'Kumbh Sans', sans-serif;
+    width: auto;
+    width: 30%;
+    font-size: 1vw;
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    margin-left: 10%;
+    background-color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+.footerLogo {
+    margin-top: 70px;
+
+    font-size: 3vw;
+    font-weight: bolder;
+}
+        
+        
+    @media only screen and (max-width: 500px) {
+      .segment {
+        margin-top: 90px;
+        width: 100%;
+        }
+        .footerLogo{
+            font-size: 8vw;
+        }
+        nav{
+            height: auto;
+        }
+        nav:nth-child(4){
+            
+        }
+        .hotel_logo{
+            width: 100%;
+            text-align: center;
+            margin-left: 0px;
+            font-size: 5vw;
+            float: none;
+        }
+        .options{
+            width: 100%;
+            float: none;
+            margin-left: 0px;
+            text-align: center;
+        }
+        .options:hover{
+            border-color: transparent;
+        }
+        .contatcContainer{
+            margin-top: 300px;
+        }
+        .main{
+            min-height: 800px;
+        }
+        #sendBtn{
+            font-size: 3vw;
+            margin-left: 10%;
+            width: 80%; 
+        }
+}
+.heroimage {
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+
+.searchContainer {
+    height: 60px;
+    padding-left: 25%;
+    width: 100%;
+    margin: 350px auto 100px auto;
+    position: absolute;
+}
+[searchName], select, #searchBtn{
+    height: 40px;
+    width: 300px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    margin-left: 30px;
+        text-indent: 10px;
+
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.69);
+    
+}
+#searchBtn:hover{
+    cursor: pointer;
+}
+
+select {
+    width: 150px;
+ 
+}
+
+#searchBtn{
+    background-color: black;
+    color: white;
+    width: 150px;
+    text-indent: 0;
+}
+.hotelCard {
+    height: 310px;
+    width: 30%;
+    float: left;
+    margin-left: 2%;
+    margin-top: 2%;
+    border-radius: 8px;
+    overflow: hidden;
+    color: black;
+    -webkit-box-shadow: 0px 0px 8px 2px rgba(219,219,219,1);
+    -moz-box-shadow: 0px 0px 8px 2px rgba(219,219,219,1);
+    box-shadow: 0px 0px 8px 2px rgba(219,219,219,1);
+    
+}
+
+.hotelCoverImage {
+    height: 200px;
+    width: 100%;
+    
+}
+
+
+
+.HotelDescription {
+    display: flex;
+    flex-flow: column wrap;
+}
+.roomsClasses > span{
+    margin: 15px 20px 15px 20px;
+}
+
+
+.hotelName {
+    font-weight: bold;
+    text-transform: uppercase;  
+}
+
+.hotelRegion {
+    font-weight: 100;
+    color: grey;
+}
+
+
+
+.hotelRatings {
+    color: gold;
+}
+
+[homeMain]{
+    margin-top: 0;
+}
+
+
+.home {
+    background-image: url("../images/backgrounds/hero_temporary.jpg");
+    
+}
+
+.rooms {
+    background-image: url(../images/backgrounds/hotelRoom.jpg);
+}
+
+
+  .main {
+    width: 100%;
+    float: left;
+    
+  /* Set a specific height */
+  min-height: 400px; 
+    padding: 10% 0 10% 0;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contactUs {
+    background-image: url("../images/backgrounds/phone.jpg");
+}
+
+.homeMain {
+    padding-top: 50px;
+}
+
+.hotelRoomsMain {
+    margin: 50px 0 50px 0;
+}
+
+.roomPrice {
+    color: dimgrey;
+    font-weight: bold;
+}
+
+.roomClass {
+    text-transform: uppercase;
+    font-weight: bold;
+}

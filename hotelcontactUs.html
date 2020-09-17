@@ -3,70 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
     <title>Hotels.com</title>
+    
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
 </head>
 <body>
-        <nav>
+        <nav id="navigationBar">
             <div class="hotel_logo">
-                <img src="https://media-cdn.tripadvisor.com/media/photo-s/11/c4/5b/8f/hotel-logo.jpg" alt="hotel_logo" height="100px" width="300px">
+                <span>Paradise Inn</span>
             </div>
             
-            <a href="hotelGallery.html">
+            <a href="home.html">
                 <div class="options">
-                    <span>Gallery</span>
+                    <i class="material-icons">home</i>
                 </div>
             </a>
+            
+             <a href="about.html">
+                <div class="options">
+                    <span>About Us</span>
+                </div>
+            </a>
+            
+            <a href="hotelcontactUs.html">
+                <div class="options" style="background-color: whitesmoke">
+                    <span>Contact Us</span>
+                </div>
+            </a>
+            
             <a href="hotelrooms.html">
                 <div class="options">
                     <span>Rooms</span>
                 </div>
             </a>
-            <a href="hotelcontactUs.html">
+           
+            <a href="hotelGallery.html">
                 <div class="options">
-                    <span>Contact Us</span>
+                    <span>Gallery</span>
                 </div>
             </a>
-            <a href="about.html">
-                <div class="options">
-                    <span>About Us</span>
-                </div>
-            </a>       
+            
+            
+           
+            
+            
+                   
             
         </nav>
     
 
     
-    <main>
-        <div class="contactUs">
+    <main class="main contactUs">
+        <div class="contatcContainer">
+            
             <form action="#">
-                <input type="text" name="senderName" placeholder="Your Name">
+                <input type="text" name="senderName" class="inputs" placeholder="Your Name">
+                <p id="nameEmpty" style="visibility: hidden; color: red">Please fill the blank</p>
+                <input type="email" name="senderMail" class="inputs" placeholder="yourname@example.com">
            
-            <textarea name="senderMessage" id="semderMessage" textarea cols="100" rows="10"></textarea>
-            <input type="submit" name="sendBtn" id="sendBtn" value="SEND">
+            <textarea name="senderMessage" id="semderMessage" placeholder="Your Message" class="textArea"></textarea>
+            <input type="button" name="sendBtn" id="sendBtn" value="SEND">
             </form>
             
+        
         </div>
+        
     </main>
     
     <footer>
-        <div class="segment"></div>
         <div class="segment">
+        <div class="footerContents">
+            <div class="footerLogo">
+                <span>Hotels.com</span>
+            </div>
+            
+            </div>
+        </div>
+        <div class="segment">
+            <div class="footerContents">
             <h2>Contact Us</h2>
             <a href="tel:0627224602"><span>Tel: +255 XXX XXX XXX</span></a><br>
             <a href="mailto:dressmatictz@gmail.com"><span>email: support@hotels.com</span></a><br>
             <span>P O Box xxxx</span><br>
             <span>UDOM, Dodoma</span>
+            </div>
+            
         </div>
         <div class="segment">
+            <div class="footerContents">
+
             <h2>Get In Touch</h2>
             <a href="https://www.instagram.com/dressmatic_tz/?hl=en"><span>Instagram</span></a><br>
            <a href="https://web.facebook.com/ulipotunakufikia.tz"><span>Facebook</span></a> <br>
             <a href="#"><span>LinkedIn</span></a><br>
             <a href="https://twitter.com/CSungita"><span>Twitter</span></a><br>
             
- 
+            </div>
  
         </div>
      </footer>
+    
+    <script src="./js/main.js"></script>
 </body>
 </html>
